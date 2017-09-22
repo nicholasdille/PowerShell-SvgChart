@@ -4,4 +4,4 @@
 
 # Introduction
 
-Cmdlets for analyzing data on the PowerShell console
+Cmdlets for creating SVG based chart from PowerShell
