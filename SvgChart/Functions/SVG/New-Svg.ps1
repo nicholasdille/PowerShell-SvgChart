@@ -1,4 +1,10 @@
 function New-Svg {
+    [Diagnostics.CodeAnalysis.SuppressMessageAttribute(
+        "PSUseShouldProcessForStateChangingFunctions", 
+        "", 
+        Justification = "Creates in-memory object only."
+    )]
+    
     [CmdletBinding(DefaultParameterSetName='Individual')]
     param(
         [Parameter(ParameterSetName='Individual')]

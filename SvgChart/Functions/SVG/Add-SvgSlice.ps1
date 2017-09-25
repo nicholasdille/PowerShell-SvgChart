@@ -1,4 +1,9 @@
 function Add-SvgSlice {
+    [Diagnostics.CodeAnalysis.SuppressMessageAttribute(
+        "PSUseSingularNouns", 
+        "", 
+        Justification = "Noun is singular"
+    )]
     [CmdletBinding()]
     param(
         [Parameter(Mandatory)]
