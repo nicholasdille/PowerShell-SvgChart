@@ -1,6 +1,6 @@
 @{
     RootModule = 'SvgChart.psm1'
-    ModuleVersion = '0.5'
+    ModuleVersion = '0.5.13'
     GUID = 'dc0b8987-971b-4c70-b603-cdec585d0417'
     Author = 'Nicholas Dille'
     # CompanyName = ''
